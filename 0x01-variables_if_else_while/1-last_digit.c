@@ -3,22 +3,24 @@
 #include <time.h>
 
 #include <stdio.h>
-/* more headers goes there */
+/** more headers goes there
+
+*main - Entry point
 
 
-
-/* betty style doc for function main goes there */
+*Return 0 (Success) 
+*/
 
 int main(void)
 {
-	int n, last_digit;
+int n, last_digit;
 
-	srand(time(0));
+srand(time(0));
 
-		n = rand() - RAND_MAX / 2;
+n = rand() - RAND_MAX / 2;
 			
 		/* my code goes here*/
-		last_digit = n % 10; /* to get last digit */
+last_digit = n % 10; /* to get last digit */
 
 if (last_digit > 5)
 {
@@ -30,7 +32,8 @@ else if (last_digit == 0)
 printf("Last digit of %i is %i and is 0\n", n, last_digit);
 }
 
-else	
+else
+{
 printf("last digit of %i is %i and is less than 6 and not 0\n", n, last_digit);
 }
 
