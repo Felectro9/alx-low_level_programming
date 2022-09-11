@@ -16,11 +16,11 @@ int main(void)
 	while(n <= 9)
 	{
 		printf("%i", n)
-			++n;
+		++n;
 
 	}
 
-putchar("\n");
+putchar("int\n");
 
 return (0);
 }
