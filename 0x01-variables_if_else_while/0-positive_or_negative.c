@@ -1,14 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
-
 /**
  * main - Entry point
  * Description -  assign a random number to the variable n each time it is executed
  * return: 0 (success)
  */
-
 int main(void)
 {
 	int n;
