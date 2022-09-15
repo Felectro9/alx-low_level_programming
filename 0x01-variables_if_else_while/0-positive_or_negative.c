@@ -5,12 +5,8 @@
 
 /**
  * main - Entry point
- *
- * Return; Always 0 (success)
- *
  * Description -  assign a random number to the variable n each time it is executed
- *
- * return 0 (success)
+ * return: 0 (success)
  */
 
 int main(void)
