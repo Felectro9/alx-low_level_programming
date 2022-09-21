@@ -1,7 +1,7 @@
 #include"main.h"
 /**
- * print alphabet-uses putchar function to a - z
  *
+ *Description - print alphabets a - z in lower case
  */
 void print_alphabet(void)
 {
@@ -10,4 +10,4 @@ void print_alphabet(void)
 	for (alp = 'a'; alp <= 'z'; ++alp)
 		_putchar(alp);
 	_putchar('\n');
-}	
+}
