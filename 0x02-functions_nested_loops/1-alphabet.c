@@ -3,7 +3,6 @@
  * print alphabet-uses putchar function to a - z
  *
  */
-
 void print_alphabet(void)
 {
 	int alp;
