@@ -16,7 +16,7 @@ void times_table(void)
 
 			result = n * times;
 
-			if (prod <= 9)
+			if (result <= 9)
 				_putchar(' ');
 			else
 				putchar((result / 10) + 48);
