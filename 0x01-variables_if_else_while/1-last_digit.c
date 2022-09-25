@@ -1,16 +1,10 @@
 #include <stdlib.h>
-
 #include <time.h>
-
 #include <stdio.h>
 /** more headers goes there
-
 *main - Entry point
-
-
 *Return 0 (Success) 
 */
-
 int main(void)
 {
 int n, last_digit;
@@ -19,7 +13,6 @@ srand(time(0));
 
 n = rand() - RAND_MAX / 2;
 			
-		/* my code goes here*/
 last_digit = n % 10; /* to get last digit */
 
 if (last_digit > 5)
