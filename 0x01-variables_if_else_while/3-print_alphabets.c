@@ -1,13 +1,9 @@
 # include <stdio.h>
-
 /**
- * main - Entry point
- *
+ * main - Entry point 
  * Description - print alphabets, lower case and upper case
- *
  * return 0 (Always/Success)
  */
-
 int main(void)
 {
 	char alp = 'a';
